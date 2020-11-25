@@ -1,0 +1,54 @@
+// $rutaFondo: url("images/headerPaper.png");
+
+header{
+
+    background-image: url("images/headerPaper.png");
+    background-size: cover;
+
+    #cabecera{
+
+        padding: 5rem;
+
+    }
+    
+}
+
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    
+    #imagen{
+        
+        padding-top: 1rem;
+        padding-left: 1rem;
+        width: 6rem;
+        height: 1.4rem;
+        
+    }
+    
+    
+    
+    ul{
+        
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin: 0;
+    font-weight: bold;
+    
+    
+}
+}
+
+#menu{
+    li{
+        
+        padding: 2rem;
+        color: white;
+
+
+
+    }
+
+}

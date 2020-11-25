@@ -1,1 +1,42 @@
-/* No CSS *//*# sourceMappingURL=salseo.css.map */
+header {
+  background-image: url("images/headerPaper.png");
+  background-size: cover;
+}
+
+header #cabecera {
+  padding: 5rem;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav #imagen {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  width: 6rem;
+  height: 1.4rem;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-decoration: none;
+  margin: 0;
+  font-weight: bold;
+}
+
+#menu li {
+  padding: 2rem;
+  color: white;
+}
+/*# sourceMappingURL=salseo.css.map */
