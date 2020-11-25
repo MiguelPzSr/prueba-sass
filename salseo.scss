@@ -1,6 +1,6 @@
 $rutaFondo: url("images/headerPaper.png");
 $Color1: rgba(233, 233, 233, 0.842);
-
+$fuentes: 'open-sans', 'Avenir';
 
 header{
     
@@ -9,8 +9,8 @@ header{
     
     #cabecera{
         
-        padding: 5rem;
-        font-family: 'Open Sans', serif;
+        padding: 2rem;
+        font-family: $fuentes;
         color: white;
                 
     }
@@ -47,9 +47,10 @@ nav {
 #menu{
     li{
         
-        padding: 2rem;
-        color: white;
-        font-family: 'Open Sans', serif;
+        @extend #cabecera;
+        // padding: 2rem;
+        // color: white;
+        // font-family: 'Open Sans', serif;
         list-style-type: none;
         
     }

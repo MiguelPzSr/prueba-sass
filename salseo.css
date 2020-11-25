@@ -3,9 +3,9 @@ header {
   background-size: cover;
 }
 
-header #cabecera {
-  padding: 5rem;
-  font-family: 'Open Sans', serif;
+header #cabecera, header #menu li, #menu header li {
+  padding: 2rem;
+  font-family: "open-sans", "Avenir";
   color: white;
 }
 
@@ -37,9 +37,6 @@ nav ul {
 }
 
 #menu li {
-  padding: 2rem;
-  color: white;
-  font-family: 'Open Sans', serif;
   list-style-type: none;
 }
 
